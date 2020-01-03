@@ -12,7 +12,6 @@ exports.createPages = async ({ graphql, actions }) => {
             node {
               slug
               title
-
             }
           }
         }
@@ -24,7 +23,6 @@ exports.createPages = async ({ graphql, actions }) => {
     throw result.errors
   }
 
-  // Create blog posts pages.
   const posts = result.data.allContefulBlogPost.edges
 
   posts.forEach((post, index) => {
