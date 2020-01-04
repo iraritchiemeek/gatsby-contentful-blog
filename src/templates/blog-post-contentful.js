@@ -8,7 +8,7 @@ import { rhythm, scale } from "../utils/typography"
 
 class BlogPostContentfulTemplate extends React.Component {
   render() {
-    const post = this.props.data.contenfulBlogPost
+    const post = this.props.data.contentfulBlogPost
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
