@@ -7,7 +7,7 @@ module.exports = {
     title: `Test Blog`,
     author: `Ira`,
     description: `First project with Gatsby / Contentful`,
-    siteUrl: ``
+    siteUrl: `http://www.ira.co.nz`
   },
   plugins: [
     {
